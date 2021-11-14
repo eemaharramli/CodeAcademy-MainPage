@@ -1,0 +1,100 @@
+.container {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+    margin: 0 -12px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0 12px;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+    min-height: 1px;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+    min-height: 1px;
+}
+.col-3 {
+    width: calc(100% / 12 * 3);
+    min-height: 1px;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    min-height: 1px;
+}
+.col-5 {
+    width: calc(100% / 12 * 5);
+    min-height: 1px;
+}
+.col-6 {
+    width: calc(100% / 12 * 6);
+    min-height: 1px;
+}
+.col-7 {
+    width: calc(100% / 12 * 7);
+    min-height: 1px;
+}
+.col-8 {
+    width: calc(100% / 12 * 8);
+    min-height: 1px;
+}
+.col-9 {
+    width: calc(100% / 12 * 9);
+    min-height: 1px;
+}
+.col-10 {
+    width: calc(100% / 12 * 10);
+    min-height: 1px;
+}
+.col-11 {
+    width: calc(100% / 12 * 11);
+    min-height: 1px;
+}
+.col-12 {
+    width: calc(100% / 12 * 12);
+    min-height: 1px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    position: relative;
+}
+
+.underline::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fbc93e;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: transform .3s ease;
+}
+
+.underline:hover::after{
+    transform: scale(1, 1);
+}
+
+.pointer{
+    cursor: pointer;
+}

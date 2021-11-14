@@ -1,0 +1,585 @@
+.header{
+    height: 50px;
+    background-color: #fff;
+}
+
+.header .header-top .academy-address{
+    padding-top: 15px;
+}
+
+.header .header-top .academy-address .academy-number{
+    font-weight: bold;
+}
+
+.header .header-top a{
+    margin-right: 30px;
+    color: #000000;
+}
+
+.header .header-top .social-hubs .social-item{
+    padding-top: 15px;
+    cursor: pointer;
+    color: #000000;
+    transform: translateY(0);
+    transition: .2s linear;
+}
+
+.header .header-top .social-hubs .social-item:hover{
+    transform: translateY(5px);
+}
+
+.header .header-top .appeal .appeal-button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #ffc400;
+    float: right;
+    font-weight: bold;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.header .header-top .appeal .appeal-button:hover{
+    background-color: #ff9100;
+}
+
+#navigation{
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top: 80px;
+    left: 0;
+}
+
+#navigation nav{
+    text-align: center;
+}
+
+#navigation nav ul{
+    list-style-type: none;
+}
+
+#navigation nav ul li{
+    display: inline-block;
+    width: 200px;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    margin-right: 50px;
+}
+
+#navigation nav ul ul{
+    display: none;
+}
+
+#navigation nav ul ul li{
+    transition: .3s ease-in-out ;
+}
+
+#navigation nav ul li:hover>ul{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+#navigation nav ul ul li:hover{
+    background: #e2e1e1;
+    color: black;
+}
+
+#navigation .search{
+    color: #fff;
+    padding-top: 20px;
+    float: right;
+    margin-right: 10px;
+}
+
+#navigation .search .pointer{
+    padding-bottom: 10px;
+}
+
+
+#slider .slider .slider-img img{
+    max-width: 100%;
+}
+
+#promo{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#promo .programs .programs-info .info-title{
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 40px;
+
+}
+
+#promo .programs  .programs-info span{
+    display: block;
+    font-weight: 900;
+}
+
+#promo .programs  .programs-info .info-text{
+    margin-top: 10px;
+}
+
+#promo .programs  .programs-info .info-more{
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#promo .programs .item{
+    width: 350px;
+    height: 300px;
+    transition: .5s ease-in-out;
+    border: 1px solid grey;
+    margin-right: 0;
+    float: left;
+}
+
+#promo .programs .item:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #fff;
+}
+
+#promo .programs .first:hover{
+    background-color: #e83e8c;
+}
+
+#promo .programs .second:hover{
+    background-color: #6f42c1;
+}
+
+#promo .programs .third:hover{
+    background-color: #fd7e14;;
+}
+
+#promo .programs .fourth:hover{
+    background-color: #007bff;;
+}
+
+#promo .programs .fifth:hover{
+    background-color: #ffc107;;
+}
+
+#promo .programs .sixth:hover{
+    background-color:  #28a745;;
+}
+
+#promo .programs .seventh:hover{
+    background-color: #ffc107;;
+}
+
+#promo .programs .item svg{
+    padding: 20px 0 0 20px;
+}
+
+#promo .programs .item .item-info{
+    margin-top: 100px;
+    padding-left: 20px;
+}
+
+#studentCount{
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/background_team.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+#studentCount .students-info{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#studentCount .students-info .students-count{
+    font-size: 50px;
+    font-weight: 450;
+    background-color: #fff;
+}
+
+#studentCount .students-info .students-count span{
+    font-weight: bold;
+}
+
+#studentCount .students-info .students-pass{
+    border: 4px solid #000000;
+    background-color: #fff;
+    font-weight: 450;
+    font-size: 50px;
+    width: 800px;
+    margin-top: -5px;
+    margin-left: 200px;
+}
+
+#studentCount .students-info .students-pass span{
+    font-weight: bold;
+}
+
+#whyCode{
+    padding: 100px;
+}
+
+#whyCode .why-code{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+#whyCode .why-code h2.why-title{
+    font-weight: 100;
+    font-size: 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#whyCode .why-code .why-title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: 110px;
+    background: linear-gradient(to right, blue, green, purple, red, orange, yellow );
+}
+
+#whyCode .why-item h3.why-title{
+    margin-bottom: 10px;
+}
+
+#whyCode .why-tickets .why-item h3.why-title span{
+    display: block;
+}
+
+#whyCode .why-code .why-title span{
+    display: block;
+    line-height: 20px;
+}
+
+#whyCode .why-code .why-text{
+    margin-top: 70px;
+}
+
+.why-about{
+    float: right;
+    max-width: 230px;
+}
+
+.why-item{
+    height: 250px;
+    max-width: 100%;
+    transition: .3s ease-in-out;
+}
+
+.why-item:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #afafaf;
+}
+
+#whyCode .why-item .why-img{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+
+#whyCode .why-tickets{
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+#partners{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#partners .partners-promo{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#partners .partners-promo .partners-title{
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#partners .partners-promo .partners-title span{
+    display: block;
+    line-height: 20px;
+}
+
+#partners .partners-promo .partners-text{
+    margin-top: 50px;
+    font-size: 16px;
+    position: relative;
+}
+
+#partners .partners-promo .partners-text::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    top: 110px;
+    background: linear-gradient(to right, green, blue, purple, red, orange, yellow );
+    left: 100px;
+}
+
+
+
+.partners-promo{
+    padding-top: 100px;
+}
+
+.partners-promo .partners{
+    margin: 0 auto;
+    height: 100px;
+    vertical-align: middle;
+}
+.partners {
+    padding-top: 100px;
+}
+
+.partner-logo{
+    text-align: center;
+    position: relative;
+    height: 120px;
+}
+
+.partner-logo img{
+    filter: grayscale(1);
+    transition: .3s ease-in-out;
+    vertical-align: middle;
+}
+
+.partner-logo img:hover{
+    filter: grayscale(0);
+}
+
+.partner-logo a{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+#future{
+    padding: 100px;
+}
+
+.future-promo{
+    text-align: center;
+}
+
+.future-promo .future-title{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.future-promo .future-text{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.future-promo .future-link{
+    display: inline-block;
+    margin-top: 30px;
+    border-bottom: 2px solid yellow;
+}
+
+#questions{
+    height: 500px;
+    padding: 100px;
+    background: url("../images/background-reception.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#questions .questions-promo{
+    margin-left: 100px;
+
+}
+
+#questions .questions-title{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+#questions .questions-title span{
+    display: block;
+    margin-left: 20px;
+}
+
+#questions .questions-promo .questions-text{
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 400px;
+}
+
+#questions .form{
+    width: 400px;
+    height: 280px;
+    margin-left: 100px;
+
+}
+
+.holder .holder-name{
+    width: 190px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.holder .holder-surname{
+    width: 190px;
+    height: 60px;
+    padding-left: 20px;
+    float: right;
+    color: #afafaf;
+}
+
+.holder-number select{
+    margin-top: 20px;
+    height: 60px;
+    width: 125px;
+    text-align: center;
+    color: #afafaf;
+    margin-bottom: 20px;
+    border: none
+}
+
+.number{
+    display: inline-block;
+    width: calc(100% - 129px);
+    height: 60px;
+    color: #afafaf;
+    text-align: center;
+    border: none
+}
+
+.form-programs select{
+    padding-left: 20px;
+    color: #afafaf;
+    width: 100%;
+    height: 60px;
+    border: none;
+}
+
+.submit{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    background: #ffd95e;
+    border: none
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+#footer-information{
+    padding: 50px;
+    height: 400px;
+}
+
+#footer-information .footer-information{
+    margin-right: 50px;
+}
+
+#footer-information .footer-information h4{
+    font-weight: 500;
+}
+
+#footer-information .footer-information ul{
+    padding-top: 20px;
+    list-style: none;
+}
+
+#footer-information .footer-information ul li{
+    text-align: left;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: #8f8f8f;
+    transition: .2s ease-in-out;
+}
+
+#footer-information .footer-information ul li:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+#footer-address{
+    height: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #f4f5f8;
+    text-align: center;
+}
+
+.footer-information p{
+    color: #4a4a4a;
+    font-weight: 200;
+}
+
+.footer-information p a{
+    font-weight: bold;
+}
+
+.footer{
+    height: 130px;
+}
+
+.footer .social-hubs{
+    text-align: center;
+}
+
+.footer .social-hubs .social-item{
+    transform: translateY(0);
+    transition: transform .2s linear;
+}
+
+.footer .social-hubs .social-item:hover{
+    transform: translateY(-10px);
+    overflow: hidden;
+}
+
+.footer .rights{
+    padding-top: 60px;
+    color: #8f8f8f;
+    font-weight: 200;
+    text-align: center;
+}
+
+.footer .logo{
+    padding-top: 50px;
+}
+
+footer .social-hubs{
+    padding-top: 50px;
+    /* position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%); */
+}
+
+.footer .social-hubs a{
+    margin-right: 20px;
+}
